@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:padding="10dp"
         android:text="@string/registered_emailid"
-        android:textColor="@color/white_greyish"
+        android:textColor="@color/black"
         android:textSize="17sp" />
 
     <EditText
@@ -23,14 +23,13 @@
         android:layout_marginTop="5dp"
         android:singleLine="true"
         android:background="@android:color/transparent"
-
         android:drawablePadding="8dp"
         android:gravity="center_vertical"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:padding="10dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white_greyish"
         android:textSize="16sp" />
 
     <View
@@ -48,10 +47,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
-
             android:padding="5dp"
             android:text="@string/back"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
 
@@ -63,7 +61,7 @@
             android:gravity="right"
             android:padding="5dp"
             android:text="@string/submit"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="15sp"
             android:textStyle="bold" />
     </RelativeLayout>
